@@ -157,6 +157,9 @@ class Musteri:
         self.musterino=musterino
         self.ehliyetbilgileri=ehliyetbilgileri
 
+        
+def test():
+    print("test ediliyor")
 
 class Kiralama:
     def __init__(self,aracplaka,musterino,kiralamatarihi,iadetarihi):
